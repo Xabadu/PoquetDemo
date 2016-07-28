@@ -1,0 +1,3 @@
+rootProject.name = 'PoquetDemo'
+
+include ':app'
