@@ -3,10 +3,16 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node node_modules/react-native/local-cli/cli.js start"
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "ios": "react-native run-ios --simulator=\"iPhone 6 Plus\"",
+    "android": "react-native run-android"
   },
   "dependencies": {
     "react": "15.2.1",
-    "react-native": "^0.30.0"
+    "react-native": "^0.30.0",
+    "react-native-camera": "git+https://github.com/lwansbrough/react-native-camera.git",
+    "react-native-swipe-list-view": "^0.2.3",
+    "react-native-swiper": "^1.4.7",
+    "react-native-vector-icons": "^2.0.3"
   }
 }
